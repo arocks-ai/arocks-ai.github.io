@@ -5,35 +5,20 @@
 ### Todo
 
 Resume related
-
 Resume - make it 1.5 pages
-
 Resume - Use action verbs
-
 Resume - Add SOA, Scrum, Angular, OO development, MQ, 
-
 Resume - print and do final review \(DO NOT change afterwards\)
-
 Resume - Update new one in indeed, linkedIn and glassdoor
-
 Resume - Revisit and update covering letter
-
 Other
-
 Review Quick primer on DS, algorithms [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews)
-
 Cracking code interview book
-
 Work on - [https://yangshun.github.io/tech-interview-handbook/best-practice-questions](https://yangshun.github.io/tech-interview-handbook/best-practice-questions)
-
 Do Leetcode easy/top 30
-
 Prepare behaviour QA
-
 Prepare VIF project details
-
 Prepare Vision project details
-
 Prepare Integration project details  
 
 
@@ -48,33 +33,20 @@ Prepare Integration project details
 Study/CI  youtube videos
 
 Kevin Naughton Jr - [https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g/vi](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g/vi)
-
 Tushar Reddy - [https://www.youtube.com/channel/UCZLJf\_R2sWyUtXSKiKlyvAw](https://www.youtube.com/channel/UCZLJf_R2sWyUtXSKiKlyvAw)
-
 Gaurav Sen - [https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw](https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw)
-
 Geeks for Geeks - [https://www.youtube.com/channel/UC0RhatS1pyxInC00YKjjBqQ](https://www.youtube.com/channel/UC0RhatS1pyxInC00YKjjBqQ)
-
 New Tech basics - [https://www.youtube.com/channel/UCB12jjYsYv-eipCvBDcMbXw](https://www.youtube.com/channel/UCB12jjYsYv-eipCvBDcMbXw)
-
 Behavior and HR  [https://www.youtube.com/channel/UCEgQyQPkQIhoXf12FFKSYgQ](https://www.youtube.com/channel/UCEgQyQPkQIhoXf12FFKSYgQ)
 
 Links Codility solutions
-
  [https://github.com/Mickey0521/Codility](https://github.com/Mickey0521/Codility)
-
  [https://github.com/jmornar/codility-java-solutions](https://github.com/jmornar/codility-java-solutions)
-
  [https://github.com/sunilsoni/Codility-Practice](https://github.com/sunilsoni/Codility-Practice)
-
  [https://codesays.com/solutions-to-training-by-codility/](https://codesays.com/solutions-to-training-by-codility/)
-
  [https://github.com/mission-peace/interview](https://github.com/mission-peace/interview)
-
  [https://github.com/mission-peace/interview/wiki](https://github.com/mission-peace/interview/wiki)
-
 [https://github.com/dhruv88esh/DatalexCodilitySolutions/blob/master/src/com/datalex/solutions/HardDiskStatistics.java](https://github.com/dhruv88esh/DatalexCodilitySolutions/blob/master/src/com/datalex/solutions/HardDiskStatistics.java)
-
 [https://leetcode.com/discuss/interview-question/125050/maximal-ascending-slice](https://leetcode.com/discuss/interview-question/125050/maximal-ascending-slice)  
 
 
