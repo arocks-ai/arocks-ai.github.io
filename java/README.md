@@ -4,14 +4,10 @@
 
 ### Java Links:
 
-The Java Tutorials from Oracle - https://docs.oracle.com/javase/tutorial/
-
-W3 schools - https://www.w3schools.com/java/
-
-Java Tutorial for Beginners video - https://www.youtube.com/watch?v=eIrMbAQSU34
-
-Learn Java 8 for Beginners video- https://www.youtube.com/watch?v=grEKMHGYyns
-
+The Java Tutorials from Oracle - https://docs.oracle.com/javase/tutorial/  
+W3 schools - https://www.w3schools.com/java/  
+Java Tutorial for Beginners video - https://www.youtube.com/watch?v=eIrMbAQSU34  
+Learn Java 8 for Beginners video- https://www.youtube.com/watch?v=grEKMHGYyns  
 Tutorial Point - https://www.tutorialspoint.com/java/index.htm  
 
 
@@ -21,75 +17,40 @@ Need: complex, distributed, internationalized applications, Microservices, cloud
 
 Spring is framework comes with a lot of boilerplate code to make developer life easy
 
-SOA - Service-oriented Architecture
-
-MoM - Message oriented Middleware
-
-Adv: Asynchronous communication, loose coupling between components
-
-MQ provides buffer if consumer is busy or not connected to network
-
-If persistent storage used for MQ then consumer and producer need not be online at the same time
-
-Routing: Can be done on MoM layer or receiver application. 
-
-Dis Adv: difficult to maintain as extra Broker component
-
-JMS
-
-RabitMQ
-
-AMQP 
-
-Micros services at Netflix
-
-[https://www.slideshare.net/stonse/pros-and-cons-of-a-microservices-architecture-talk-at-aws-reinvent](https://www.slideshare.net/stonse/pros-and-cons-of-a-microservices-architecture-talk-at-aws-reinvent)
-
-[https://www.youtube.com/watch?v=CriDUYtfrjs](https://www.youtube.com/watch?v=CriDUYtfrjs&feature=youtu.be)  
+SOA - Service-oriented Architecture   
+MoM - Message oriented Middle ware  
+ Adv: Asynchronous communication, loose coupling between components   
+MQ provides buffer if consumer is busy or not connected to network If persistent storage used for MQ then consumer and producer need not be online at the same time   
+Routing: Can be done on MoM layer or receiver application.   
+Dis Adv: difficult to maintain as extra Broker component   
+JMS   
+RabitMQ   
+AMQP   
 
 
-Getting Started with Java Spring Microservices
+### Micros services at Netflix
 
-[https://hp.sharepoint.com/portals/hub/\_layouts/15/PointPublishing.aspx?app=video&p=p&chid=d471b9bd-9249-414a-991b-919da1ecf945&vid=57e922b9-08c4-4cf0-aa3a-360286ae68d7&from=1](https://hp.sharepoint.com/portals/hub/_layouts/15/PointPublishing.aspx?app=video&p=p&chid=d471b9bd-9249-414a-991b-919da1ecf945&vid=57e922b9-08c4-4cf0-aa3a-360286ae68d7&from=1)  
+MS at Netflix [slidehsare link  
+ ](https://www.slideshare.net/stonse/pros-and-cons-of-a-microservices-architecture-talk-at-aws-reinvent%20)[https://www.youtube.com/watch?v=CriDUYtfrjs](https://www.youtube.com/watch?v=CriDUYtfrjs)
 
-
-MQ Intro: [https://docs.oracle.com/cd/E19435-01/819-0069/intro.html](https://docs.oracle.com/cd/E19435-01/819-0069/intro.html)
-
-RabitMQ Intro - [https://google-ukdev.blogspot.com/2008/09/rabbitmq-tech-talk-at-google-london.html](https://google-ukdev.blogspot.com/2008/09/rabbitmq-tech-talk-at-google-london.html)
-
-REST vs MQ: [https://stackoverflow.com/questions/19246704/restful-v-s-mq-differences-and-other-key-features-apart-from-guaranteed-deliver](https://stackoverflow.com/questions/19246704/restful-v-s-mq-differences-and-other-key-features-apart-from-guaranteed-deliver)
-
-AMQP or HTTP:
-
-[https://stackoverflow.com/questions/16838416/service-oriented-architecture-amqp-or-http](https://stackoverflow.com/questions/16838416/service-oriented-architecture-amqp-or-http)
-
-Java EE: [https://app.pluralsight.com/library/courses/java-ee-getting-started/table-of-contents](https://app.pluralsight.com/library/courses/java-ee-getting-started/table-of-contents)
-
-MQ: [https://app.pluralsight.com/library/courses/asynchronous-messaging-rabbitmq-easynetq/table-of-contents](https://app.pluralsight.com/library/courses/asynchronous-messaging-rabbitmq-easynetq/table-of-contents)  
-
+MQ Intro: [https://docs.oracle.com/cd/E19435-01/819-0069/intro.html](https://docs.oracle.com/cd/E19435-01/819-0069/intro.html)   
+RabitMQ Intro - [https://google-ukdev.blogspot.com/2008/09/rabbitmq-tech-talk-at-google-london.html](https://google-ukdev.blogspot.com/2008/09/rabbitmq-tech-talk-at-google-london.html) REST vs MQ: [https://stackoverflow.com/questions/19246704/restful-v-s-mq-differences-and-other-key-features-apart-from-guaranteed-deliver](https://stackoverflow.com/questions/19246704/restful-v-s-mq-differences-and-other-key-features-apart-from-guaranteed-deliver)   
+AMQP or HTTP: [https://stackoverflow.com/questions/16838416/service-oriented-architecture-amqp-or-http](https://stackoverflow.com/questions/16838416/service-oriented-architecture-amqp-or-http)   
+Java EE: [https://app.pluralsight.com/library/courses/java-ee-getting-started/table-of-contents](https://app.pluralsight.com/library/courses/java-ee-getting-started/table-of-contents)   
+MQ: [https://app.pluralsight.com/library/courses/asynchronous-messaging-rabbitmq-easynetq/table-of-contents](https://app.pluralsight.com/library/courses/asynchronous-messaging-rabbitmq-easynetq/table-of-contents)
 
 ### Java EE
 
-Build Tools: Apache Ant \(old\), Ivy, Maven \(heavily used\) , Gradle \(latest\)
-
-Maven - XML based Build Automation tool \(compile, package, clean, dependencies\), Open source, describes how to use program, and dependencies, config file: pom.xml 
-
+Build Tools: Apache Ant \(old\), Ivy, Maven \(heavily used\) , Gradle \(latest\)  
+Maven - XML based Build Automation tool \(compile, package, clean, dependencies\), Open source, describes how to use program, and dependencies, config file: pom.xml  
 Equivalent in .NET is MSBuild/Nuget  
-
-
-Application Server: Middle ware to provide EE features like for data access, Http access, monitoring etc..
-
-Options: Glassfish, Apache TomEE, Payara Jboss, WildFly
-
-Tomcat simple HTTP server only \(not full stack EE server\)
-
+Application Server: Middle ware to provide EE features like for data access, Http access, monitoring etc.. Options: Glassfish, Apache TomEE, Payara Jboss, WildFly  
+Tomcat simple HTTP server only \(not full stack EE server\)  
 Jboss is like Redhat \(production version\), WildFly is like Fedora \(developer version\)
 
-Open source Database: 
-
- MySQL, MariaDB, Derby, SQLite, PostgreSQL, H2
-
-H2 Database - used for development purpose: very fast, single jar file \(smaller footprint\), in-memory embedded mode. Maven used to configure H2 as dependency  
+**Open source Database**:   
+MySQL, MariaDB, Derby, SQLite, PostgreSQL, H2  
+**H2 Database** - used for development purpose: very fast, single jar file \(smaller footprint\), in-memory embedded mode. Maven used to configure H2 as dependency  
 
 
 Test Framework: JUnit \(Unit Test\), Arquillian \(Integration test\)  
