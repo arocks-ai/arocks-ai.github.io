@@ -20,12 +20,12 @@ Spring is framework comes with a lot of boilerplate code to make developer life 
 SOA - Service-oriented Architecture   
 MoM - Message oriented Middle ware  
  Adv: Asynchronous communication, loose coupling between components   
-MQ provides buffer if consumer is busy or not connected to network If persistent storage used for MQ then consumer and producer need not be online at the same time   
+**MQ** provides buffer if consumer is busy or not connected to network If persistent storage used for MQ then consumer and producer need not be online at the same time   
 Routing: Can be done on MoM layer or receiver application.   
 Dis Adv: difficult to maintain as extra Broker component   
-JMS   
-RabitMQ   
-AMQP   
+**JMS**   
+**RabitMQ**   
+**AMQP**   
 
 
 ### Micros services at Netflix
@@ -39,51 +39,38 @@ AMQP or HTTP: [https://stackoverflow.com/questions/16838416/service-oriented-arc
 Java EE: [https://app.pluralsight.com/library/courses/java-ee-getting-started/table-of-contents](https://app.pluralsight.com/library/courses/java-ee-getting-started/table-of-contents)   
 MQ: [https://app.pluralsight.com/library/courses/asynchronous-messaging-rabbitmq-easynetq/table-of-contents](https://app.pluralsight.com/library/courses/asynchronous-messaging-rabbitmq-easynetq/table-of-contents)
 
-### Java EE
+## Java EE 
 
-Build Tools: Apache Ant \(old\), Ivy, Maven \(heavily used\) , Gradle \(latest\)  
-Maven - XML based Build Automation tool \(compile, package, clean, dependencies\), Open source, describes how to use program, and dependencies, config file: pom.xml  
+### Java EE Basics
+
+**Build Tools:** Apache Ant \(old\), Ivy, Maven \(heavily used\) , Gradle \(latest\)  
+**Maven** - XML based Build Automation tool \(compile, package, clean, dependencies\), Open source, describes how to use program, and dependencies, config file: pom.xml  
 Equivalent in .NET is MSBuild/Nuget  
-Application Server: Middle ware to provide EE features like for data access, Http access, monitoring etc.. Options: Glassfish, Apache TomEE, Payara Jboss, WildFly  
-Tomcat simple HTTP server only \(not full stack EE server\)  
-Jboss is like Redhat \(production version\), WildFly is like Fedora \(developer version\)
+**Application Server:** Middle ware to provide EE features like for data access, Http access, monitoring etc.. Options: Glassfish, Apache TomEE, Payara Jboss, WildFly  
+**Tomcat** simple HTTP server only \(not full stack EE server\)  
+**Jboss** is like Redhat \(production version\), **WildFly** is like Fedora \(developer version\)
 
 **Open source Database**:   
 MySQL, MariaDB, Derby, SQLite, PostgreSQL, H2  
 **H2 Database** - used for development purpose: very fast, single jar file \(smaller footprint\), in-memory embedded mode. Maven used to configure H2 as dependency  
 
 
-Test Framework: JUnit \(Unit Test\), Arquillian \(Integration test\)  
+Test Framework: JUnit \(Unit Test\), Arquillian \(Integration test\)
 
+### **Java EE development Setup** 
 
-Java EE development Setup
+Install JDK  
+Install Maven   
+Install WildFly 17 final \(Eclipse doesn’t support 18 yet\)   
+Install Eclipse EE edition   
+Configure Jboss in Eclipse \(to invoke WildFly directly from Eclipse\)   
+Configure H2 and JUnit frameworks as dependencies in Maven pom.xml file
 
-Install JDK, 
+WildFly = run standalone to start App server, run Adduser once to setup admin user start "WildFly" standalone.bat -Djboss.socket.binding.port-offset=100 Check Installation: java -version, mvn -version,
 
-Install Maven 
+JDBC = Low level standard for accessing Database directly using SQL Type statements. Equivalent in .NET is Entity ODBC/ADO.NET
 
-Install WildFly 17 final \(Eclipse doesn’t support 18 yet\)
-
-Install Eclipse EE edition
-
-Configure Jboss in Eclipse \(to invoke WildFly directly from Eclipse\) 
-
-Configure H2 and JUnit frameworks as dependencies in Maven pom.xml file  
-
-
-WildFly =  run standalone to start App server, run Adduser once to setup admin user
-
- start "WildFly" standalone.bat -Djboss.socket.binding.port-offset=100
-
-Check Installation:  java -version, mvn -version,   
-
-
-JDBC = Low level standard for accessing Database directly using SQL Type statements.
-
-Equivalent in .NET is Entity ODBC/ADO.NET  
-
-
-JPA = Java Persistence API, specification only \(Hibernate is one of the implementation\) high level abstraction \(with Object Relational Mappings\) to access DB. Easy to use and map DB entries to Java objects than legacy JDBC. 
+JPA = Java Persistence API, specification only \(Hibernate is one of the implementation\) high level abstraction \(with Object Relational Mappings\) to access DB. Easy to use and map DB entries to Java objects than legacy JDBC.
 
 Equivalent in .NET is Entity framework. 
 
@@ -93,9 +80,9 @@ Equivalent in .NET is Entity framework.
 * CRUD operations
 * Query Language JPQL
 
-### Spring boot
+## Spring boot
 
-#### Links:
+### Links:
 
 Spring Boot ref and API docs: [https://spring.io/projects/spring-boot\#learn](https://spring.io/projects/spring-boot#learn)
 
@@ -121,7 +108,7 @@ MicroServices using Spring Boot & Spring Cloud [https://sivalabs.in/2018/03/micr
 Martin flower article: [https://martinfowler.com/articles/microservices.html](https://martinfowler.com/articles/microservices.html)  
 
 
-#### Spring Boot Basics
+### Spring Boot Basics
 
 Spring = Java framework to develop Enterprise applications
 
