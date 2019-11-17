@@ -148,14 +148,10 @@ Project structure:
 
 ─ src
 
-│   ├── main
-
-│   │ ├── java.com.example.bikedemo
-
-│   │ │               ├── BikedemoApplication.java
-
-│   │ │               ├── controllers
-
+│   ├── main  
+│   │ ├── java.com.example.bikedemo  
+│   │ │               ├── BikedemoApplication.java  
+│   │ │               ├── controllers  
 │   │ │               │ └── BikeController.java
 
 │   │ │               ├── models
